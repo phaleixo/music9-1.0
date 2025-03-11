@@ -1,91 +1,58 @@
-# Muzza
+# Music9
 
-<img src="https://raw.githubusercontent.com/Maloy-Android/Muzza/dev/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" height="72">
+Um cliente YouTube Music baseado no Material 3 para Android
 
-A Material 3 YouTube Music client for Android
+## Recursos
 
-[![Latest release](https://img.shields.io/github/v/release/Maloy-Android/Muzza?include_prereleases)](https://github.com/Maloy-Android/Muzza/releases)
-[![License](https://img.shields.io/github/license/Maloy-Android/Muzza)](https://www.gnu.org/licenses/gpl-3.0)
-[![Downloads](https://img.shields.io/github/downloads/Maloy-Android/Muzza/total)](https://github.com/Maloy-Android/Muzza/releases)
+- 🎵 Reproduza músicas do YouTube/YouTube Music sem anúncios
+- 🔊 Reprodução em segundo plano
+- 🔍 Pesquise músicas, vídeos, álbuns e playlists no YouTube Music
+- 💾 Cache e download de músicas para reprodução offline
+- 🎤 Letras sincronizadas
+- 🎭 Tradutor de letras
+- ⏯ Pular silêncios
+- 🔇 Normalização de áudio
+- 🔄 Ajuste de tempo/tom
+- 🌟 Tema dinâmico
+- 🚗 Suporte ao Android Auto
+- 🔹 Sugestões rápidas personalizadas
 
-[<img src="https://github.com/machiav3lli/oandbackupx/blob/034b226cea5c1b30eb4f6a6f313e4dadcbb0ece4/badge_github.png" alt="Get it on GitHub" height="80">](https://github.com/Maloy-Android/Muzza/releases/latest)
-[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/packages/com.maloy.muzza)
-[<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" height="80">](https://apt.izzysoft.de/fdroid/index/apk/com.maloy.muzza)
+> **⚠ Aviso**  
+> Se você estiver em uma região onde o YouTube Music não é compatível, não poderá usar este aplicativo  
+> ***a menos que*** tenha um proxy ou VPN para se conectar a uma região compatível com o YTM.
 
-[Compare versions](https://github.com/Maloy-Android/Muzza/wiki/App-Versions)
+---
 
-## Features
+## ❓ Perguntas Frequentes (FAQ)
 
-- Play songs from YT/YT Music without ads
-- Background playback
-- Search songs, videos, albums, and playlists from YouTube Music
-- Login support
-- Cache and download songs for offline playback
-- Synchronized lyrics
-- Lyrics translator
-- Skip silence
-- Audio normalization
-- Adjust tempo/pitch
-- Dynamic theme
-- Android Auto support
-- Personalized quick picks
-- Discord Rich Presence support
+### ✉ Como fazer scrobble de músicas para LastFM, LibreFM, ListenBrainz ou GNU FM?
 
-## Screenshots
+Use outros aplicativos de scrobble de música. Eu recomendo o [Pano Scrobbler](https://play.google.com/store/apps/details?id=com.arn.scrobble).
 
-<p float="left">
-  <img src="https://raw.githubusercontent.com/Maloy-Android/Muzza/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png" width="200" />
-  <img src="https://raw.githubusercontent.com/Maloy-Android/Muzza/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png" width="200" />
-  <img src="https://raw.githubusercontent.com/Maloy-Android/Muzza/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/03.png" width="200" />
-</p>
-<p float="left">
-  <img src="https://raw.githubusercontent.com/Maloy-Android/Muzza/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/04.png" width="200" />
-  <img src="https://raw.githubusercontent.com/Maloy-Android/Muzza/dev/fastlane/metadata/android/en-US/images/phoneScreenshots/05.png" width="200" />
-</p>
+### ✉ Por que o Music9 não aparece no Android Auto?
 
-> **Warning**
->
->If you're in a region where YouTube Music is not supported, you won't be able to use this app
-***unless*** you have a proxy or VPN to connect to a YTM supported region.
+1. Vá para as configurações do Android Auto e toque várias vezes na versão exibida na parte inferior para ativar as configurações de desenvolvedor.
+2. No menu de três pontos no canto superior direito da tela, clique em "Configurações do desenvolvedor".
+3. Ative a opção "Fontes desconhecidas".
 
-## FAQ
+---
 
-### Q: How to scrobble music to LastFM, LibreFM, ListenBrainz or GNU FM?
+## 🌐 Contribuindo com Traduções
 
-Use other music scrobbler apps. I
-recommend [Pano Scrobbler](https://play.google.com/store/apps/details?id=com.arn.scrobble).
+Siga as [instruções](https://developer.android.com/guide/topics/resources/localization) e crie um pull request. Se possível, compile o aplicativo antes para garantir que não haja erros antes de criar o pull request.
 
-### Q: Why Muzza isn't showing in Android Auto?
+---
 
-1. Go to Android Auto's settings and tap multiple times on the version in the bottom to enable
-   developer settings
-2. In the three dots menu at the top-right of the screen, click "Developer settings"
-3. Enable "Unknown sources"
+## 👨‍💻 Créditos
 
-## Contributing Translations
+Quero dar crédito ao projeto [vfsfitvnm/ViMusic](https://github.com/vfsfitvnm/ViMusic) por servir como um exemplo de player de música usando Jetpack Compose. Ele me ajudou muito no aprendizado de Compose e desenvolvimento Android.
 
-Follow the [instructions](https://developer.android.com/guide/topics/resources/localization) and
-create a pull request. If possible, please build the app beforehand and make sure there is no error
-before you create a pull request.
+---
 
-## Donate
+## ⛔ Aviso Legal
 
-If you like Muzza, you're welcome to send a donation. Donations will support the development,
-including bug fixes and new features.
+Este projeto e seu conteúdo não são afiliados, financiados, autorizados ou endossados pelo YouTube, Google LLC ou qualquer uma de suas afiliadas e subsidiárias.
 
-<a href="https://liberapay.com/zionhuang"><img src="https://raw.githubusercontent.com/Maloy-Android/Muzza/dev/assets/liberapay.png" alt="Liberapay" height="60" ></a>
-<a href="https://www.buymeacoffee.com/zionhuang"><img src="https://raw.githubusercontent.com/Maloy-Android/Muzza/dev/assets/buymeacoffee.png" alt="Liberapay" height="60" ></a>
+Qualquer marca registrada, marca de serviço, nome comercial ou outros direitos de propriedade intelectual usados neste projeto pertencem aos respectivos proprietários.
 
-## Credit
 
-I want to give credit to [vfsfitvnm/ViMusic](https://github.com/vfsfitvnm/ViMusic) for being an
-example of Jetpack Compose music player. It helped me a lot on my way to learn Compose and
-Android development.
-
-## Disclaimer
-
-This project and its contents are not affiliated with, funded, authorized, endorsed by, or in any
-way associated with YouTube, Google LLC or any of its affiliates and subsidiaries.
-
-Any trademark, service mark, trade name, or other intellectual property rights used in this project
-are owned by the respective owners.
